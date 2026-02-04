@@ -13,8 +13,10 @@
      }
    ],
     "github": [
-    "repo": "RainbowMellon/golden-ducks",
-    "branch": "main"
+      {
+        "repo": "RainbowMellon/golden-ducks",
+        "branch": "main"
+      }
     ]
   }
 }
