@@ -12,5 +12,9 @@
        "destination": "/index.html"
      }
    ]
+    "github": [
+    "repo": "RainbowMellon/golden-ducks",
+    "branch": "main"
+    ]
   }
 }
