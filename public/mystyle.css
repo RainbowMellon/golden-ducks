@@ -54,3 +54,14 @@ div#subbox {
    text-align: left; 
   padding: 10px;
 }
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+  text-decoration: line-through; /* Puts a line through the text */
+}
+.untyped {
+  color: grey;
+}

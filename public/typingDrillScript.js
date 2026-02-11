@@ -7,13 +7,17 @@ inputField.addEventListener('input', (event) => {
 
 const submitButton = document.querySelector('button[name="submit"]');
 submitButton.addEventListener('click', () => {
-    for(let i = 0; i < inputValue.length; i++){
-        if(inputValue.at(i) == correctValue.at(i))
-            console.log("You did it!");
+    let results = '';
+    for(let i = 0; i < correctValue.length; i++){
+        if(inputValue.at(i) == undefined)
+            results += `<span class="untyped"> ${correctValue.at(i)} </span>`;
+        else if(inputValue.at(i) == correctValue.at(i))
+            results += `<span class="correct"> ${inputValue.at(i)} </span>`;
         else{
-            console.log("Yikes");
+            results += `<span class="incorrect"> ${inputValue.at(i)} </span>`;
         }
     }
+    document.querySelector('div[name="results"]').innerHTML = results;
 });
 
 
