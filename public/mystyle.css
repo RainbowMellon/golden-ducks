@@ -48,7 +48,7 @@ div#minigamebox {
   margin-right: auto;
 }
 div#subbox {
-  border-width: 1px;
+  background-color: black;
   border-style: solid;
   display: inline-block;
    text-align: left; 
