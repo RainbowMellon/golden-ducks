@@ -2,13 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Page Title</title>
-    <meta name="description" content="Roughly 155 characters">
     <link rel="stylesheet" type="text/css" href="mystyle.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="script.js"></script>
+    
   </head>
   <body>
-    <!-- Content -->
+    <nav></nav>
+    <script src="navLoader.js"></script>
+    <div id="minigamebox">
+        <p>Typing test</p>
+        <div id="subbox">
+            <p>Type  "hello world"</p>
+            <div name="results"></div>
+            <input name="drillInput" type="text" />
+            <button name="submit">Submit</button>
+        </div>
+    </div>
   </body>
+  <script src="typingDrillScript.js"></script>
 </html>
