@@ -7,5 +7,4 @@ inputField.addEventListener('input', (event) => {
 const myButton = document.querySelector('button[name="submit"]');
 myButton.addEventListener('click', () => {
     console.log(inputValue);
-    alert('Button was clicked!');
 });
