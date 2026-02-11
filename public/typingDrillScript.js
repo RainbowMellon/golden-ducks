@@ -1,5 +1,5 @@
 const inputField = document.querySelector('input[name="drillInput"]');
-const correctInput = document.querySelector('div[name="correctInput"]');
+const correctInput = document.querySelector('p[name="correctInput"]');
 let inputValue = '';
 inputField.addEventListener('input', (event) => {
     inputValue = event.target.value;
@@ -10,7 +10,7 @@ submitButton.addEventListener('click', () => {
     for(const char of inputValue){
         console.log(char);
     }
-    console.log(correctInput);
+    console.log(correctInput.textContent);
 });
 
 
